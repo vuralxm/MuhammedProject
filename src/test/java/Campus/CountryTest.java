@@ -149,7 +149,7 @@ public class CountryTest  {// testler için her daim login olmamız lazım. bunu
 
                 .then()
                 .log().body()
-                .statusCode(208)
+                .statusCode(200)
         ;
     }
 
